@@ -1,0 +1,25 @@
+Se trata de un estandar de texto para representar datos
+
+Son archivos con un nombre .JSON
+
+Funciona para intercambiar datos en la web
+
+El último elemento no debe tener coma
+
+No soporta comentarios
+
+Un ejemplo es el siguiente:
+
+{
+    "name": "Alejo",
+    "lastName": "Passe",
+    "age": 20,
+    "job": "Development",
+
+    "alias":{
+        "name":"Chiara",
+        "lastName":"D'agosto"
+    },
+
+    "famous": true
+}
