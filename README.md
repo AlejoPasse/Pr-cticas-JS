@@ -1,13 +1,9 @@
-Para subir a Github
-
 git init
 
 git add .
 
-git commit -m "NombreCommit"
+git commit -m "first commit"
 
-git push add (LinkGithub)
+git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
 
-git branch -m main
-
-git push -u origin main
+git push -u origin master
